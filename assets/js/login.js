@@ -59,8 +59,8 @@ $(function () {
                 }
                 localStorage.setItem('token', res.token)
                 // 调用原生就是的方法重置表单数据
-                $('.login-layui-form')[0].reset()
-                location.href = '../../index.html'
+
+                location.href = '/reprint/index.html'
             }
 
         })
